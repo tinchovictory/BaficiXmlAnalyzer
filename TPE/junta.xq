@@ -12,45 +12,23 @@ else ('La fecha ingresada no es valida. Formato valido: YYYY-MM-DD')
 }">
 
 {
-for $evento in /ROWSET/ROW[./date_ eq $fecha]
-where $evento[./id_film != 0]
-return 
+	for $evento in doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-programacion.xml')//ROWSET/ROW
+  	let $film:= doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-films.xml')//ROWSET/ROW[id_film=$evento/id_film]
+  	let $sedes:= doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-sedes.xml')//ROWSET/ROW[id_place=$evento/id_place]
+  	where $evento[id_film!=0]
+  	return
 	( <pelicula>
-		<titulo>
-		{
-		doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-films.xml')//ROW[./id_film/text() eq $evento/id_film/text()]/title/text()
-		}
-		</titulo>
+		<titulo> { $film/title/text() } </titulo>
 
-		<descripcion>
-		{
-		doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-films.xml')//ROW[./id_film/text() eq $evento/id_film/text()]/synopsis_es/text()
-		}
-		</descripcion>
+		<descripcion> { $film/synopsis_es/text() } </descripcion>
 
 		<lugar>
-			<nombre>
-			{
-			doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-sedes.xml')//ROW[./id_place/text() eq $evento/id_place/text()]/title/text()
-			}
-			</nombre>
-			<direccion>
-			{
-			doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-sedes.xml')//ROW[./id_film/text() eq $evento/id_place/text()]/address/text()
-			}
-			</direccion>
-			<sala>
-			{
-			$evento/rooms/text()
-			}
-			</sala>
+			<nombre> { $sedes/title/text() } </nombre>
+			<direccion> { $sedes/address/text() } </direccion>
+			<sala> { $evento/rooms/text() } </sala>
 		</lugar>
 
-		<hora>
-			{
-			$evento/time_/text()
-			}
-		</hora>
+		<hora> { $evento/time_/text() } </hora>
 
 		<nacionalidad>
 		{
@@ -58,7 +36,7 @@ return
 		for $seq in (1 to 4)
 		let $id_country := concat('id_country',$seq)
 		return (
-					let $pais := doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-films.xml')//ROW[./id_film/text() eq $evento/id_film/text()]/*[name()=$id_country]
+					let $pais := $film/*[name()=$id_country]
 
 					return if (($pais != 0 ) and ($pais != 'NULL'))
 					then <pais>
