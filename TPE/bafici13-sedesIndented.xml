@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROWSET>
+   <ROW>
+      <id_place>27</id_place>
+      <title>Punto de encuentro BAFICI - Centro Cultural Recoleta</title>
+      <abbrev />
+      <address>Junín 1930</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>10,17,21,37,59,60,61,62,67,92,93,101,102,110,124</bus>
+      <subway />
+      <train />
+      <rooms>Punto de encuentro,Cronopios,El Aleph,Microcine,Terraza,Microcine</rooms>
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>punto_de_encuentro_bafici_-_centro_cultural_recoleta_1.jpg</filepic1>
+      <filemap1>punto_de_encuentro_bafici_-_centro_cultural_recoleta_1.jpg</filemap1>
+      <lat>-34.5864</lat>
+      <lng>-58.3917</lng>
+      <weight>2</weight>
+      <created_ts>2013-03-11 19:05:40</created_ts>
+      <updated_ts>2013-03-25 20:40:52</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>29</id_place>
+      <title>Village Recoleta Mall</title>
+      <abbrev />
+      <address>Vicente López  y Junín -  4º piso</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>10,41,59,60,67,92,93,95,110,118</bus>
+      <subway />
+      <train />
+      <rooms>1,2,3,4,5,6,7,8,9,10,Espacio Baficito</rooms>
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>village_recoleta_mall_1.jpg</filepic1>
+      <filemap1>village_recoleta_mall_1.jpg</filemap1>
+      <lat>-34.5888</lat>
+      <lng>-58.3936</lng>
+      <weight>3</weight>
+      <created_ts>2013-03-11 19:07:33</created_ts>
+      <updated_ts>2013-03-26 00:45:47</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>30</id_place>
+      <title>Cine Cosmos - UBA</title>
+      <abbrev />
+      <address>Av. Corrientes 2046</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>5,6,7,12,23,24,26,29,37,39,50,60,102,124,146,150,155,180(R155)</bus>
+      <subway>: Línea A, Estación Callao o Estacíón Pasteur</subway>
+      <train />
+      <rooms />
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>cine_cosmos_-_uba_1.jpg</filepic1>
+      <filemap1>cine_cosmos_-_uba_1.jpg</filemap1>
+      <lat>-34.6044</lat>
+      <lng>-58.396</lng>
+      <weight>8</weight>
+      <created_ts>2013-03-11 19:08:28</created_ts>
+      <updated_ts>2013-03-25 20:35:39</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>31</id_place>
+      <title>Malba Cine</title>
+      <abbrev />
+      <address>Av. Figueroa Alcorta 3415</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>10,37,38,41,59,60,67,92,93,95,102,108,110,118,124,128,130</bus>
+      <subway />
+      <train />
+      <rooms />
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>malba_cine_1.jpg</filepic1>
+      <filemap1>malba_cine_1.jpg</filemap1>
+      <lat>-34.5774</lat>
+      <lng>-58.4036</lng>
+      <weight>7</weight>
+      <created_ts>2013-03-11 19:10:14</created_ts>
+      <updated_ts>2013-03-25 20:39:58</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>32</id_place>
+      <title>Arte Multiplex Belgrano</title>
+      <abbrev />
+      <address>Av. Cabildo 2829</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>41,57,59,60,68,133,151,152,161,168,169,175,184,194</bus>
+      <subway>Línea D, Estación Congreso de Tucumán</subway>
+      <train />
+      <rooms>1,2,3</rooms>
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>arte_multiplex_belgrano_1.jpg</filepic1>
+      <filemap1>arte_multiplex_belgrano_1.jpg</filemap1>
+      <lat>-34.5561</lat>
+      <lng>-58.4618</lng>
+      <weight>9</weight>
+      <created_ts>2013-03-11 19:11:25</created_ts>
+      <updated_ts>2013-04-05 22:12:36</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>33</id_place>
+      <title>Centro Cultural San Martín</title>
+      <abbrev />
+      <address>Paraná esquina Sarmiento</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>5,6,7,23,24,26,29,39,50,56,60,64,86,99,102,105,109,111,115,124,140,142,146,151,180(R155)</bus>
+      <subway>Línea B, Estación Uruguay; Línea D, Estación Tribunales; Línea A, Estación Sáenz Peña</subway>
+      <train />
+      <rooms>1,2</rooms>
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>centro_cultural_san_martin_1.jpg</filepic1>
+      <filemap1>centro_cultural_san_martin_1.jpg</filemap1>
+      <lat>-34.6053</lat>
+      <lng>-58.388</lng>
+      <weight>6</weight>
+      <created_ts>2013-03-11 19:12:19</created_ts>
+      <updated_ts>2013-03-25 20:32:42</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>34</id_place>
+      <title>Teatro San Martín</title>
+      <abbrev />
+      <address>Av. Corrientes 1530 piso 10º</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>5,6,7,23,24,26,29,39,50,56,60,64,86,99,102,105,109,111,115,124,140,142,146,151,180(R155)</bus>
+      <subway>Línea B, Estación Uruguay; Línea D, Estación Tribunales; Línea A, Estación Sáenz Peña</subway>
+      <train />
+      <rooms>Leopoldo Lugones</rooms>
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>teatro_san_martin_1.jpg</filepic1>
+      <filemap1>teatro_san_martin_1.jpg</filemap1>
+      <lat>-34.6053</lat>
+      <lng>-58.388</lng>
+      <weight>5</weight>
+      <created_ts>2013-03-11 19:15:21</created_ts>
+      <updated_ts>2013-03-25 20:41:12</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>35</id_place>
+      <title>Planetario de la Ciudad de Buenos Aires</title>
+      <abbrev />
+      <address>Av. Sarmiento y Belisario Roldán</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>12,15,29,36,37,39,41,55,57,59,60,64,67,68,93,95,102,108,111,118,124,128,130,152,160,161,166,188</bus>
+      <subway />
+      <train />
+      <rooms />
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>planetario_de_la_ciudad_de_buenos_aires_1.jpg</filepic1>
+      <filemap1>planetario_de_la_ciudad_de_buenos_aires_1.jpg</filemap1>
+      <lat>-34.5696</lat>
+      <lng>-58.4117</lng>
+      <weight>10</weight>
+      <created_ts>2013-03-11 19:16:17</created_ts>
+      <updated_ts>2013-03-25 20:40:16</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>36</id_place>
+      <title>Anfiteatro del Parque Centenario</title>
+      <abbrev />
+      <address>Av. Ángel Gallardo y Leopoldo Marechal, entrada por Lillo</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>15,36,42,65,92,99,105,112,124,141</bus>
+      <subway>Línea B, estación Ángel Gallardo</subway>
+      <train />
+      <rooms />
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>anfiteatro_del_parque_centenario_1.jpg</filepic1>
+      <filemap1>anfiteatro_del_parque_centenario_1.jpg</filemap1>
+      <lat>-34.6064</lat>
+      <lng>-58.4374</lng>
+      <weight>11</weight>
+      <created_ts>2013-03-11 19:17:33</created_ts>
+      <updated_ts>2013-03-25 20:32:17</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>37</id_place>
+      <title>Fundación Proa</title>
+      <abbrev />
+      <address>Av. Pedro de Mendoza 1929</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>25,29,64,86,152</bus>
+      <subway />
+      <train />
+      <rooms />
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>fundacion_proa_1.jpg</filepic1>
+      <filemap1>fundacion_proa_1.jpg</filemap1>
+      <lat>-34.6397</lat>
+      <lng>-58.3618</lng>
+      <weight>12</weight>
+      <created_ts>2013-03-11 19:18:16</created_ts>
+      <updated_ts>2013-03-25 20:38:42</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>38</id_place>
+      <title>Village Caballito</title>
+      <abbrev />
+      <address>Av. Rivadavia 5071</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus>1,2,25,26,36,42,49,53,55,72,84,85,86,96,103,104,132,135,141,153,163,180,181</bus>
+      <subway>Línea A, Estación Acoyte</subway>
+      <train>Ramal Sarmiento, Estación Caballito</train>
+      <rooms>1,4,7</rooms>
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>1</published>
+      <filepic1>village_caballito_1.jpg</filepic1>
+      <filemap1>village_caballito_1.jpg</filemap1>
+      <lat>-34.6186</lat>
+      <lng>-58.4373</lng>
+      <weight>4</weight>
+      <created_ts>2013-03-12 13:19:41</created_ts>
+      <updated_ts>2013-03-25 20:41:45</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>39</id_place>
+      <title>Fundación Universidad del Cine</title>
+      <abbrev />
+      <address>Dr. José Modesto Giuffra 330</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus />
+      <subway />
+      <train />
+      <rooms />
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>0</published>
+      <filepic1>fundacion_universidad_del_cine_1.jpg</filepic1>
+      <filemap1>fundacion_universidad_del_cine_1.jpg</filemap1>
+      <lat>-34.6178</lat>
+      <lng>-58.3706</lng>
+      <weight>0</weight>
+      <created_ts>2013-03-23 00:19:17</created_ts>
+      <updated_ts>2013-03-25 18:03:37</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+   <ROW>
+      <id_place>40</id_place>
+      <title>Av. del Libertador 1500, entre Dr. Luis Agote y Agüero (Plaza J.J. de Urquiza)</title>
+      <abbrev />
+      <address>Av. del Libertador 1500, entre Dr. Luis Agote y Agüero (Plaza J.J. de Urquiza)</address>
+      <city>Ciudad Autónoma de Buenos Aires</city>
+      <phone />
+      <bus />
+      <subway />
+      <train />
+      <rooms />
+      <img_map>NULL</img_map>
+      <img_photo>NULL</img_photo>
+      <published>0</published>
+      <filepic1>av._del_libertador_1500_entre_dr._luis_agote_y_agFCero_plaza_j.j._de_urquiza__1.jpg</filepic1>
+      <filemap1>av._del_libertador_1500_entre_dr._luis_agote_y_agFCero_plaza_j.j._de_urquiza__1.jpg</filemap1>
+      <lat>-34.5825</lat>
+      <lng>-58.3944</lng>
+      <weight>15</weight>
+      <created_ts>2013-04-04 17:51:26</created_ts>
+      <updated_ts>2013-04-22 19:18:38</updated_ts>
+      <is_hidden>NULL</is_hidden>
+      <is_subplace>NULL</is_subplace>
+   </ROW>
+</ROWSET>
