@@ -1,0 +1,18 @@
+<peliculas fecha="">
+	<pelicula>
+		<titulo></titulo>
+		<descripcion></descripcion>
+		<lugar>
+			<nombre></nombre>
+			<direccion></direccion>
+			<sala></sala>
+		</lugar>
+		<hora></hora>
+		<nacionalidad>
+			<pais>(ilimitado)</pais>
+			<pais></pais>
+			<pais></pais>
+			<pais></pais>
+		</nacionalidad>
+	</pelicula>
+</peliculas>
