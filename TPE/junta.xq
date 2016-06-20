@@ -1,4 +1,4 @@
-declare variable $fecha as xs:string := '2013-04-11';
+declare variable $fecha as xs:string external;
 declare variable $dates_in_file as xs:string := '2013-04-(1[0-9]|2[01])';
 declare variable $date_format as xs:string := '^(\d{4}\-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01]))$';
 
@@ -7,8 +7,8 @@ declare variable $date_format as xs:string := '^(\d{4}\-(0?[1-9]|1[012])\-(0?[1-
 if (matches($fecha, $dates_in_file))
 then ($fecha)
 else if (matches($fecha, $date_format))
-then (($fecha,'No se encontraron entradas con esa fecha.'))
-else ('La fecha ingresada no es valida. Formato valido: YYYY-MM-DD')
+then (trace($fecha,'No se encontraron entradas con: '))
+else (trace($fecha,'La fecha ingresada no es valida. Formato valido: YYYY-MM-DD'))
 }">{
 	for $event in doc('bafici13-programacion.xml')//ROWSET/ROW[date_=$fecha]
 	let $film:= doc('bafici13-films.xml')//ROWSET/ROW[id_film=$event/id_film]
