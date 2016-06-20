@@ -9,50 +9,37 @@ then ($fecha)
 else if (matches($fecha, $date_format))
 then (($fecha,'No se encontraron entradas con esa fecha.'))
 else ('La fecha ingresada no es valida. Formato valido: YYYY-MM-DD')
-}">
-
-{
-	for $evento in doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-programacion.xml')//ROWSET/ROW
-  	let $film:= doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-films.xml')//ROWSET/ROW[id_film=$evento/id_film]
-  	let $sedes:= doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-sedes.xml')//ROWSET/ROW[id_place=$evento/id_place]
-  	where $evento[id_film!=0]
-  	return
-	( <pelicula>
-		<titulo> { $film/title/text() } </titulo>
-
-		<descripcion> { $film/synopsis_es/text() } </descripcion>
-
+}">{
+	for $event in doc('bafici13-programacion.xml')//ROWSET/ROW[date_=$fecha]
+	let $film:= doc('bafici13-films.xml')//ROWSET/ROW[id_film=$event/id_film]
+	let $sedes:= doc('bafici13-sedes.xml')//ROWSET/ROW[id_place=$event/id_place]
+	let $pais:= doc('bafici13-paises.xml')//ROWSET/ROW
+	where $event[id_film!=0]
+	return
+	<pelicula>
+		<titulo>{data($film/title)}</titulo>
+		<descripcion>{data($film/synopsis_es)}</descripcion>
 		<lugar>
-			<nombre> { $sedes/title/text() } </nombre>
-			<direccion> { $sedes/address/text() } </direccion>
-			<sala> { $evento/rooms/text() } </sala>
+			<nombre>{data($sedes/title)}</nombre>
+			<direccion>{data($sedes/address)}</direccion>
+			<sala>{data($event/rooms)}</sala>
 		</lugar>
-
-		<hora> { $evento/time_/text() } </hora>
-
-		<nacionalidad>
-		{
-		let $id_country := 'id_country'
-		for $seq in (1 to 4)
+		<hora>{data($event/time_)}</hora>
+		<nacionalidad>{
+			for $seq in (1 to 4)
 		let $id_country := concat('id_country',$seq)
 		return (
-					let $pais := $film/*[name()=$id_country]
-
+					let $pais := doc('bafici13-films.xml')//ROWSET/ROW[id_film=$event/id_film]/*[name()=$id_country]
 					return if (($pais != 0 ) and ($pais != 'NULL'))
 					then <pais>
-						{doc('/Users/JuanmaAlonso/tpXml/TPE/bafici13-paises.xml')//ROW[./id_country/text() eq $pais]/name_es/text()}
+						{data(doc('bafici13-paises.xml')//ROW[id_country=$pais]/name_es)}
 						</pais>
 					else ()
 				)
-		}
-		</nacionalidad>
-
+		}</nacionalidad>
+		
+		
 	</pelicula>
-	) 
-} 
+}
+	 
 </peliculas>
-
-
-
-
-
