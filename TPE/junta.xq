@@ -37,8 +37,7 @@ else (trace($fecha,'La fecha ingresada no es valida. Formato valido: YYYY-MM-DD'
 					else ()
 				)
 		}</nacionalidad>
-		
-		
+
 	</pelicula>
 }
 	 
